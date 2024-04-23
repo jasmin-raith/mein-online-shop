@@ -8,10 +8,10 @@ class App extends Component {
         return  <React.Fragment>
                     <Navbar/>
                     <div className='product-container'>
-                        <Product/>
-                        <Product/>
-                        <Product/>
-                        <Product/>
+                        <Product image="tomatoes.jpg" title="Tomaten" description="Frische, geschmacksitensive Strauchtomaten aus Kampanien von Süditalien."/>
+                        <Product image="cucumbers.jpg" title="Gurken" description="Knackige Gurken aus der Provinz Almería von Südspanien."/>
+                        <Product image="apples.jpg" title="Äpfel" description="Beste Pink Lady Äpfel aus Chile. Sie sind sehr süß, saftig und aromatisch im Geschmack."/>
+                        <Product image="pears.jpg" title="Birnen" description="Saftig, süße Birnen aus den Niederlanden."/>
                     </div>
                 </React.Fragment>
     }
