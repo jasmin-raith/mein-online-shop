@@ -5,6 +5,12 @@
     padding-right: 32px;
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .shopping-cart {
     width: 25vw;
 }
