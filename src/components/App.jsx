@@ -14,11 +14,12 @@ class App extends Component {
         let existingItem = this.state.items.find(item => item.name == name); 
         if(existingItem) {
             existingItem.amount++;
+            existingItem.price = parseFloat((existingItem.price + price * amount).toFixed(2));
         } else {
             currentItems.push({
                 amount,
                 name, 
-                price
+                price: parseFloat((price * amount).toFixed(2))
             });
         }
         this.setState({items: currentItems});
