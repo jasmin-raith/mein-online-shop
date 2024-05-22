@@ -1,3 +1,9 @@
+# Online Shop
+
+![Preview](https://github.com/jasmin-raith/media/blob/main/online-shop/Online%20Shop.gif?raw=true)
+
+[Click here](https://mein-online-shop.vercel.app/) to go to the online shop.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
